@@ -1,0 +1,196 @@
+/*======== COMPONENTS ========*/
+:root {
+    --acsent-color: #404BBF;
+    --text-color: #434455;
+    --second-text-color: #2E2F42;
+    --main-font-family: 'Roboto', sans-serif;
+    --second-font-family: 'Raleway', sans-serif;
+    --line-height-family: 1.5;
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+body {
+    font-family: var(--main-font-family);
+    color: var(--text-color);
+    line-height: var(--line-height-family);
+    background-color: #FFFFFF;
+}
+
+span {
+    color: var(--text-color);
+}
+
+button {
+    font-family: inherit;
+    cursor: pointer;
+    line-height: var(--line-height-family);
+}
+
+button:hover,
+button:focus {
+    background: var(--acsent-color);
+}
+
+.logo {
+    color: #4D5AE5;
+    font-family: var(--second-font-family);
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.logo-studio-up {
+    color: var(--second-text-color);
+}
+
+.logo-studio-down {
+    color: #f4f4fd;
+}
+
+.menu-link {
+    color: var(--second-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+}
+
+.menu-link:hover,
+.menu-link:focus {
+    color: var(--acsent-color);
+    text-decoration: underline;
+    /* border-radius: 2px;  */
+}
+
+.menu-item {
+    color: var(--text-color);
+}
+
+.menu-list {
+    color: var(--text-color);
+    font-style: normal;
+}
+
+.contact-mail-tel{
+    color: var(--text-color);
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+}
+
+.contact-mail-tel:hover,
+.contact-mail-tel:focus {
+    color: var(--acsent-color);
+}
+
+.footer-description {
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    color: #F4F4FD;
+}
+
+.page-footer {
+    background-color: var(--second-text-color);
+}
+/*======== /COMPONENTS ========*/
+
+
+
+/* ======== index.html ========= */
+/* ------ main ------ */
+.main-hero-image {
+    background-color: var(--second-text-color);
+    text-align: center;
+}
+
+.text-main-banner {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.main-btm {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    background: #4D5AE5;
+    border-radius: 4px;
+}
+
+.main-btm-text {
+    color: #FFFFFF;
+}
+
+.section-title {
+    color: var(--second-text-color);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.section-description {
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+}
+
+.main-title-wawd {
+    background-color: #FFFFFF;
+}
+
+.section-topic {
+    color: var(--second-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.main-team {
+    background-color: #F4F4FD;
+}
+
+.team-caption {
+    background-color: #FFFFFF;
+}
+/* ------ /main ------ */
+/* ======== /index.html ======== */
+
+
+
+/* ======== portfolio.html ======== */
+/* ------ main ------ */
+.portfolio-menu {
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    color: #4D5AE5;
+    background: #F4F4FD;
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
+}
+
+.portfolio-menu:hover,
+.portfolio-menu:focus {
+    background: var(--acsent-color);
+    color: #FFFFFF;
+}
+
+/* ------ /main ------ */
+/* ======== /portfolio.html ======== */
