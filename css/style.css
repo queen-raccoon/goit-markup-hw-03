@@ -1,4 +1,3 @@
-/*======== COMPONENTS ========*/
 :root {
     --acsent-color: #404BBF;
     --text-color: #434455;
@@ -16,6 +15,26 @@
     text-decoration: none;
 }
 
+h1,
+h2,
+h3,
+h4,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul,
+ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+} 
+
+img {
+    display: block;
+}
+
 body {
     font-family: var(--main-font-family);
     color: var(--text-color);
@@ -23,12 +42,25 @@ body {
     background-color: #FFFFFF;
 }
 
+.container {
+    width: 1158px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+/*======== COMPONENTS ========*/
 span {
     color: var(--text-color);
 }
 
 button {
-    font-family: inherit;
     cursor: pointer;
     line-height: var(--line-height-family);
 }
@@ -36,6 +68,29 @@ button {
 button:hover,
 button:focus {
     background: var(--acsent-color);
+}
+
+/*======== /COMPONENTS ========*/
+
+
+/* ======== index.html ========= */
+/*======== HEADER ========*/
+.page-header {
+    display: flex;
+    align-items: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.page-header-container{
+    display: flex;
+    align-items: center;
+}
+
+.page-nav {
+    display: flex;
+    align-items: center;
+    column-gap: 76px;
 }
 
 .logo {
@@ -54,6 +109,15 @@ button:focus {
 
 .logo-studio-down {
     color: #f4f4fd;
+    margin-bottom: 18px;
+}
+
+.menu-list {
+    display: flex;
+    align-items: center;
+    color: var(--text-color);
+    font-style: normal;
+    column-gap: 40px;
 }
 
 .menu-link {
@@ -67,19 +131,17 @@ button:focus {
 .menu-link:focus {
     color: var(--acsent-color);
     text-decoration: underline;
-    /* border-radius: 2px;  */
 }
 
 .menu-item {
     color: var(--text-color);
 }
 
-.menu-list {
-    color: var(--text-color);
-    font-style: normal;
+.menu-address-list {
+    margin-left: auto;
 }
 
-.contact-mail-tel{
+.contact-mail-tel {
     color: var(--text-color);
     font-weight: 400;
     font-size: 16px;
@@ -90,26 +152,18 @@ button:focus {
 .contact-mail-tel:focus {
     color: var(--acsent-color);
 }
+/*======== /HEADER ========*/
 
-.footer-description {
-    font-weight: 400;
-    font-size: 16px;
-    letter-spacing: 0.02em;
-    color: #F4F4FD;
+/* ------ main ------ */ 
+.main-team {
+    background-color: #F4F4FD;
 }
 
-.page-footer {
-    background-color: var(--second-text-color);
-}
-/*======== /COMPONENTS ========*/
-
-
-
-/* ======== index.html ========= */
-/* ------ main ------ */
 .main-hero-image {
     background-color: var(--second-text-color);
+    padding-top: 188px;
     text-align: center;
+
 }
 
 .text-main-banner {
@@ -118,19 +172,35 @@ button:focus {
     line-height: 1.07;
     letter-spacing: 0.02em;
     color: #FFFFFF;
+    width: 496px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 48px;
 }
 
 .main-btm {
-    font-weight: 500;
+    min-width: 170px;
+    padding: 16px 32px;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     background: #4D5AE5;
     border-radius: 4px;
+    margin-bottom: 188px;
 }
 
 .main-btm-text {
     color: #FFFFFF;
+}
+
+.list-distination {
+    display: flex;
+    column-gap: 24px;
+}
+
+.section-text-container {
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .section-title {
@@ -139,17 +209,16 @@ button:focus {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
 }
 
 .section-description {
-    font-weight: 400;
-    font-size: 16px;
-    letter-spacing: 0.02em;
-    color: var(--text-color);
+    text-align: center;
 }
 
 .main-title-wawd {
     background-color: #FFFFFF;
+    padding-bottom: 120px;
 }
 
 .section-topic {
@@ -160,16 +229,35 @@ button:focus {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     text-align: center;
-}
-
-.main-team {
-    background-color: #F4F4FD;
+    margin-bottom: 72px;
 }
 
 .team-caption {
+
     background-color: #FFFFFF;
+    flex-basis: calc((100% - 72px) / 4);
 }
 /* ------ /main ------ */
+
+/*======== FOOTER ========*/
+.footer-aligh-text {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.footer-description {
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    color: #F4F4FD;
+    width: 264px;
+    margin-top: 18px;
+}
+
+.page-footer {
+    background-color: var(--second-text-color);
+}
+/*======== /FOOTER ========*/
 /* ======== /index.html ======== */
 
 
@@ -177,8 +265,8 @@ button:focus {
 /* ======== portfolio.html ======== */
 /* ------ main ------ */
 .portfolio-menu {
-    font-weight: 500;
-    font-size: 16px;
+    min-width: 22px;
+    padding: 12px 24px;
     letter-spacing: 0.04em;
     color: #4D5AE5;
     background: #F4F4FD;
