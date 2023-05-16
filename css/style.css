@@ -78,8 +78,9 @@ button:focus {
 .page-header {
     display: flex;
     align-items: center;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    /* padding-top: 24px;
+    padding-bottom: 24px; */
+    border-bottom: 1px solid #e7e9fc;
 }
 
 .page-header-container{
@@ -90,7 +91,7 @@ button:focus {
 .page-nav {
     display: flex;
     align-items: center;
-    column-gap: 76px;
+    /* column-gap: 76px; */
 }
 
 .logo {
@@ -101,6 +102,7 @@ button:focus {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-right: 76px;
 }
 
 .logo-studio-up {
@@ -117,7 +119,7 @@ button:focus {
     align-items: center;
     color: var(--text-color);
     font-style: normal;
-    column-gap: 40px;
+    gap: 40px;
 }
 
 .menu-link {
@@ -135,6 +137,7 @@ button:focus {
 
 .menu-item {
     color: var(--text-color);
+    padding: 24px 0;
 }
 
 .menu-address-list {
@@ -155,13 +158,9 @@ button:focus {
 /*======== /HEADER ========*/
 
 /* ------ main ------ */ 
-.main-team {
-    background-color: #F4F4FD;
-}
-
 .main-hero-image {
     background-color: var(--second-text-color);
-    padding-top: 188px;
+    padding: 188px 0;
     text-align: center;
 
 }
@@ -172,21 +171,26 @@ button:focus {
     line-height: 1.07;
     letter-spacing: 0.02em;
     color: #FFFFFF;
-    width: 496px;
+    max-width: 496px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 48px;
 }
 
-.main-btm {
-    min-width: 170px;
+.main-btm {    
+    min-width: 169px;
+    height: 56px;
     padding: 16px 32px;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     background: #4D5AE5;
     border-radius: 4px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 188px;
+    border: none;
 }
 
 .main-btm-text {
@@ -195,7 +199,11 @@ button:focus {
 
 .list-distination {
     display: flex;
-    column-gap: 24px;
+    gap: 24px;
+}
+
+.list-section-menu{
+    flex-basis: calc((100% - 72px) / 4);
 }
 
 .section-text-container {
@@ -221,6 +229,14 @@ button:focus {
     padding-bottom: 120px;
 }
 
+.main-team {
+    background-color: #F4F4FD;
+}
+
+.container-padding {
+    padding: 32px 16px;
+}
+
 .section-topic {
     color: var(--second-text-color);
     font-weight: 700;
@@ -233,7 +249,7 @@ button:focus {
 }
 
 .team-caption {
-
+    border-radius: 0px 0px 4px 4px;
     background-color: #FFFFFF;
     flex-basis: calc((100% - 72px) / 4);
 }
@@ -241,8 +257,8 @@ button:focus {
 
 /*======== FOOTER ========*/
 .footer-aligh-text {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    /* padding-top: 100px;
+    padding-bottom: 100px; */
 }
 
 .footer-description {
@@ -256,6 +272,12 @@ button:focus {
 
 .page-footer {
     background-color: var(--second-text-color);
+    padding: 100px 0;
+}
+
+.logo-link {
+    display: inline-block;
+    margin-bottom: 16px;
 }
 /*======== /FOOTER ========*/
 /* ======== /index.html ======== */
