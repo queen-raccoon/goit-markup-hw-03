@@ -78,8 +78,6 @@ button:focus {
 .page-header {
     display: flex;
     align-items: center;
-    /* padding-top: 24px;
-    padding-bottom: 24px; */
     border-bottom: 1px solid #e7e9fc;
 }
 
@@ -120,6 +118,7 @@ button:focus {
     color: var(--text-color);
     font-style: normal;
     gap: 40px;
+    padding: 24px 0;
 }
 
 .menu-link {
@@ -137,7 +136,6 @@ button:focus {
 
 .menu-item {
     color: var(--text-color);
-    padding: 24px 0;
 }
 
 .menu-address-list {
@@ -222,6 +220,7 @@ button:focus {
 
 .section-description {
     text-align: center;
+    padding: 32px 16px;
 }
 
 .main-title-wawd {
@@ -256,10 +255,10 @@ button:focus {
 /* ------ /main ------ */
 
 /*======== FOOTER ========*/
-.footer-aligh-text {
-    /* padding-top: 100px;
-    padding-bottom: 100px; */
-}
+/* .footer-aligh-text {
+     padding-top: 100px;
+    padding-bottom: 100px; 
+} */
 
 .footer-description {
     font-weight: 400;
