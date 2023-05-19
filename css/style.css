@@ -86,11 +86,6 @@ button:focus {
     align-items: center;
 }
 
-.page-nav {
-    display: flex;
-    align-items: center;
-}
-
 .logo {
     color: #4D5AE5;
     font-family: var(--second-font-family);
@@ -195,8 +190,8 @@ button:focus {
 
 .list-distination {
     display: flex;
-    gap: 24px;
     row-gap: 48px; 
+    gap: 24px;
 }
 
 .list-section-menu{
