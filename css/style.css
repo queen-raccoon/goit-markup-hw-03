@@ -195,7 +195,7 @@ button:focus {
 
 .list-distination {
     display: flex;
-    column-gap: 24px;
+    gap: 24px;
     row-gap: 48px; 
 }
 
