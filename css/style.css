@@ -89,7 +89,6 @@ button:focus {
 .page-nav {
     display: flex;
     align-items: center;
-    /* column-gap: 76px; */
 }
 
 .logo {
@@ -196,7 +195,8 @@ button:focus {
 
 .list-distination {
     display: flex;
-    gap: 24px;
+    column-gap: 24px;
+    row-gap: 48px; 
 }
 
 .list-section-menu{
@@ -289,17 +289,23 @@ button:focus {
 .portfolio-menu:focus {
     background: var(--acsent-color);
     color: #FFFFFF;
+    border: 1px solid transparent;
 }
 
 .menu-content {
     justify-content: center;
-    padding-top: 0;
-    padding-bottom: 72px;
+    padding :0;
+    margin-bottom: 72px;
+    gap: 24px;
 }
 
 .menu-wrap {
     flex-wrap: wrap;
     padding: 0;
+}
+
+.menu-portfolio-btn{
+    padding: 24px 0;
 }
 
 .main-portfolio-body {
