@@ -190,8 +190,12 @@ button:focus {
 
 .list-distination {
     display: flex;
-    row-gap: 48px; 
     gap: 24px;
+}
+
+.list-distination-gap {
+    row-gap: 48px;
+    column-gap: 24px;
 }
 
 .list-section-menu{
@@ -308,9 +312,6 @@ button:focus {
 }
 
 .menu-body-content-text {
-    /* padding-left: 10px;
-    padding-top: 32px;
-    padding-bottom: 32px; */
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
