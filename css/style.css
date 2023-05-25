@@ -139,7 +139,6 @@ button:focus {
 .menu-link:hover,
 .menu-link:focus {
     color: var(--acsent-color);
-    text-decoration: underline;
 }
 
 .menu-item {
@@ -194,12 +193,12 @@ button:focus {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    /* margin-bottom: 188px; */
     border: none;
 }
 
 .main-btm-text {
     color: #FFFFFF;
+    font-weight: 500;
 }
 
 .list-distination {
@@ -228,6 +227,11 @@ button:focus {
 .section-description {
     text-align: center;
     padding: 32px 16px;
+}
+
+.section-text {
+    font-size: 16px;
+    font-weight: 400;
 }
 
 .main-title-wawd {
@@ -269,7 +273,7 @@ button:focus {
     letter-spacing: 0.02em;
     color: #F4F4FD;
     width: 264px;
-    margin-top: 18px;
+    /* margin-top: 18px; */
 }
 
 .page-footer {
@@ -279,6 +283,7 @@ button:focus {
 
 .logo-link {
     display: inline-block;
+    margin-bottom: 16px;
 }
 /*======== /FOOTER ========*/
 /* ======== /index.html ======== */
@@ -288,9 +293,8 @@ button:focus {
 /* ======== portfolio.html ======== */
 /* ------ main ------ */
 .portfolio-menu {
-    font-weight: 700;
+    font-weight: 500;
     font-size: 16px;
-    /* min-width: 22px; */
     padding: 12px 24px;
     letter-spacing: 0.04em;
     color: #4D5AE5;
@@ -318,8 +322,8 @@ button:focus {
     padding: 0;
 }
 
-.menu-portfolio-btn{
-    /* padding: 24px 0; */
+.menu-item-link {
+    padding: 24px 0;
 }
 
 .main-portfolio-body {
